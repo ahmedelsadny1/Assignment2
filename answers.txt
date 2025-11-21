@@ -1,0 +1,17 @@
+Exercise 6: Role of the Loader
+
+Shared Libraries Dynamically Loaded:
+
+1- linux-vdso.so.1: Virtual Dynamic Shared Object provided by the kernel to speed up some system calls.
+2- libc.so.6: Standard C library containing basic functions like printf, scanf, malloc, etc.
+3- /lib64/ld-linux-x86-64.so.2: Dynamic loader / linker responsible for loading shared libraries at runtime.
+
+-------------------------------------------
+1- what is the job of the Linker?
+
+- Combines object files and libraries into a single executable, resolving all references and Prepares the program so it is ready to run.
+
+-------------------------------------------
+2- what is the job of the Loader?
+
+- Loads the executable into memory, links dynamic libraries, and sets up runtime environment.
