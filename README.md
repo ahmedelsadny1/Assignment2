@@ -67,4 +67,5 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://github.com/ahmedelsadny1/Assignment2/blob/main/LICENSE)
+[MIT](https://choosealicense.com/licenses/mit/)
+
