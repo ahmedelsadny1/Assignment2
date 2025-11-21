@@ -1,7 +1,33 @@
+Exercise 1: 
+
+- creates a new process (child)
+- This demonstrates how process creation works in Linux
+
+-------------------------------------------
+Exercise 2:
+
+- sleep 300 &: runs a process in the background.
+- job: Shows all background processes created by the current shell.
+-------------------------------------------
+Exercise 3:
+
+- ps aux | grep sleep ---> Use ps to find the process ID (PID) of the sleep process you started.
+- kill <PID> ---> Stop the process using kill.
+- ps aux | grep sleep ---> Verify the process is no longer running:
+
+-------------------------------------------
+Exercise 4: 
+
+- kill -STOP <PID> ----> Pause a process
+- kill -CONT <PID> ----> Resume the process
+-------------------------------------------
+Exercise 5:
+
+- Demonstrates multi-file compilation and linking.
+-------------------------------------------
 Exercise 6: Role of the Loader
 
 Shared Libraries Dynamically Loaded:
-
 1- linux-vdso.so.1: Virtual Dynamic Shared Object provided by the kernel to speed up some system calls.
 2- libc.so.6: Standard C library containing basic functions like printf, scanf, malloc, etc.
 3- /lib64/ld-linux-x86-64.so.2: Dynamic loader / linker responsible for loading shared libraries at runtime.
